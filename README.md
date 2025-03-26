@@ -1,4 +1,4 @@
-# primer-final-project
+# SEVERANCE - primer-final-project
 
 Wednesday, 26. March 2025
 
