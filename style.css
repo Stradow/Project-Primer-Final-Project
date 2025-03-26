@@ -1,0 +1,24 @@
+header {
+  border: 2px solid black;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#hero {
+  border: 2px solid black;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#companies {
+  border: 2px solid black;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.companies-box {
+  border: 2px solid black;
+}
