@@ -100,8 +100,6 @@ header {
     margin-bottom: 3rem;
     text-align: center;
   }
-  h2 {
-  }
 }
 
 .impression-wrapper {
@@ -146,16 +144,21 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem 1rem 2rem 1rem;
+  padding: 2rem 0 2rem 0;
   background-color: var(--accent-2);
-  h2 {
-    margin-bottom: 2rem;
+  p {
+    width: 50%;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
   }
 }
 
 .working-wrapper {
+  max-width: 1200px;
   display: flex;
   align-items: top;
+  justify-content: space-between;
   gap: 2rem;
 }
 
@@ -163,7 +166,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: top;
   text-align: center;
   background-color: white;
   padding: 2rem;
@@ -191,7 +193,7 @@ header {
   align-items: center;
   padding: 2rem 1rem;
   img {
-    width: 450px;
+    width: 500px;
     filter: drop-shadow(5px 0px 5px rgb(0 0 0 /40%));
   }
 }
@@ -200,7 +202,10 @@ header {
   display: flex;
   background-color: var(--secondary);
   border-radius: 30px;
+  max-width: 1200px;
   padding: 2rem 0;
+  justify-content: right;
+  padding-right: 10%;
 }
 
 .sign-up-text {
@@ -210,7 +215,7 @@ header {
   justify-content: center;
   text-align: center;
   padding: 1rem;
-  width: 600px;
+  width: 40%;
   h2 {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
@@ -220,32 +225,67 @@ header {
   }
   p {
     margin: 0 0 4rem 0;
-    width: 70%;
-  }
-  button {
-    margin-bottom: 5rem;
+    width: 90%;
   }
   fineprint {
     font-size: 12px;
     width: 60%;
+  }
+  button {
+    background-color: var(--accent-2);
+    color: var(--main-white);
+    border: none;
+    border-radius: 20px;
+    padding: 1.25rem 2.5rem;
+    font-weight: 300;
+    font-size: 1.25rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  button:hover {
+    background-color: var(--accent-1);
+    color: var(--contrast-2);
   }
 }
 /* Sign up Section End */
 
 /* Footer Start */
 footer {
-  background-color: lightgrey;
+  background-color: var(--contrast-2);
+  color: var(--main-white);
   padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-wrapper {
+  width: 1200px;
+  gap: 3rem;
   display: flex;
   img {
-    width: 70px;
+    width: 120px;
+    height: auto;
+    margin-bottom: 0.2rem;
   }
 }
 .footer-element {
   display: flex;
+  max-width: 230px;
+  margin: 0 1rem 0 1rem;
   flex-direction: column;
+  a {
+    text-decoration: none;
+    color: var(--secondary);
+    font-weight: lighter;
+  }
+
+  a:hover {
+    color: var(--accent-1);
+    text-decoration: none;
+    font-weight: bold;
+  }
 }
 /* Footer End */
