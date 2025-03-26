@@ -2,8 +2,19 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
 }
-
+:root {
+  --main-white: #f3ffff;
+  --accent-1: #afcbd6;
+  --accent-2: #79a6b9;
+  --secondary: #beb780;
+  --contrast-1: #20464f;
+  --contrast-2: #0e1a26;
+}
+main {
+  background-color: var(--main-white);
+}
 header {
   width: 100%;
   height: 4rem;
@@ -77,18 +88,24 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem;
-  background-color: aqua;
+  padding: 2rem 1rem 3rem 1rem;
+  p {
+    width: 50%;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
   h2 {
-    margin-bottom: 2rem;
   }
 }
 
 .impression-wrapper {
+  max-width: 1200px;
   display: flex;
+  flex-wrap: wrap;
   align-items: top;
-  padding: 0 2rem;
-  gap: 2rem;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .impression {
@@ -96,6 +113,13 @@ header {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  width: 300px;
+  background-color: var(--accent-1);
+  border-radius: 20px;
+  padding: 2rem;
+  quote {
+    width: 100%;
+  }
   img {
     height: 100px;
     width: 100px;
@@ -117,7 +141,8 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem;
+  padding: 2rem 1rem 2rem 1rem;
+  background-color: var(--accent-2);
   h2 {
     margin-bottom: 2rem;
   }
@@ -135,9 +160,9 @@ header {
   align-items: center;
   justify-content: top;
   text-align: center;
-  background-color: red;
-  padding: 1rem;
-  width: 300px;
+  background-color: white;
+  padding: 2rem;
+  width: 350px;
   img {
     height: 200px;
     width: 200px;
@@ -159,13 +184,18 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 2rem 1rem;
   img {
-    width: 400px;
+    width: 450px;
+    filter: drop-shadow(5px 0px 5px rgb(0 0 0 /40%));
   }
 }
 
 .sign-up-wrapper {
   display: flex;
+  background-color: var(--secondary);
+  border-radius: 30px;
+  padding: 2rem 0;
 }
 
 .sign-up-text {
@@ -174,9 +204,8 @@ header {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: white;
   padding: 1rem;
-  width: 500px;
+  width: 600px;
   h2 {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
