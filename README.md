@@ -1,54 +1,35 @@
-# SEVERANCE - primer-final-project
+# SEVERANCE - Primer Final Project
 
-Wednesday, 26. March 2025
+![Lumon Industries Logo](https://static.wikia.nocookie.net/severance-series/images/9/93/Lumon.jpg)
 
-Severance
-Introduction
-Severance is a psychological thriller series by Apple TV+ that explores the ethical and existential dilemmas of a surgical procedure called "Severance," which separates a person's work memories (Innie) from their personal life memories (Outie). The company, Lumon Industries, markets this as a way to achieve "work-life balance”. 
-Concept
-Lumon Industries Careers Website (Severance Procedure Promotion).  We are Lumon Industries and advertise working at our company, with a webpage which reflects our company identity.
-Theme
-Theme: A sleek, corporate, and slightly eerie promotional website for Lumon Industries, advertising the benefits of the Severance procedure to potential employees. The site should feel like authentic corporate propaganda—clean, persuasive, and subtly unsettling.
-Key Pages & Features (wireframe from Garrett)
-Header – Logo and Navbar
-Hero section: A smiling employee (Innie) in Lumon’s sterile office, tagline: “Severance: A New Era of Work-Life Harmony”. (Some catchy line)
+---
 
-Testimonials from "happy" employees (vague, corporate-speak: "I leave my stress at the door.”).
+### **Introduction**
 
-Short video/animation of the Severance chip implant (glowing, futuristic).
+_Severance_ is a psychological thriller series by Apple TV+ that explores the ethical dilemmas of the **Severance Procedure**—a surgical process that separates work memories (_Innie_) from personal life memories (_Outie_). Lumon Industries markets this as "work-life balance perfected".
 
-"The Severance Procedure" – How It Works (Awesome app features) Infographic-style breakdown:
-Step 1: "Quick, painless brain surgery.”
-Step 2: "Your Innie thrives at work; your Outie lives free."
-Step 3: "Seamless transition—no memory overlap."
+---
 
-Fake scientific endorsements ("98% employee satisfaction!").
+## 🏢 **Concept**
 
-"Life at Lumon" – Corporate Utopia
+**Lumon Industries Careers Website (Severance Procedure Promotion)**  
+We are Lumon Industries. This webpage advertises working at our company while reflecting our corporate identity—clean, persuasive, and subtly unsettling.
 
-Photos of the minimalist, cult-like office (MDR, Perpetuity Wing).
+---
 
-Perks: "Waffle parties! Music Dance Experience! No outside worries!"
+## 🎨 **Theme**
 
-Ominously vague: "Your Outie will thank you."
+A sleek and corporate promotional site that mimics Lumon’s propaganda.
 
-"Join Us" – Apply Now
+---
 
-A sterile form with invasive questions (e.g., "Do you believe in the work?").
+## 🛠️ **Tech Stack**
 
-Legal disclaimers in fine print ("Lumon is not responsible for unintended psychological effects.").
+-   **Frontend:** HTML5, CSS3 (Grid/Flexbox), JavaScript (for glitches)
+-   **Design:** Figma (Wireframe)
 
-Easter Eggs / Hidden Dark Tone
+---
 
-Glitches in animations (brief flickers of distressed employees).
+<br>
 
-Cryptic messages in source code/comments (e.g., "Help us. They’re watching.").
-
-Design & Tone:
-Visuals: Clean, corporate, retro-futuristic (Lumon’s 70s-inspired aesthetic).
-
-Color Palette: Whites, muted blues/greens, Lumon’s signature pale tones.
-
-Typography: Sans-serif (corporate), occasional eerie distorted text.
-
-Micro-interactions: Buttons that feel too satisfying (like Lumon’s manipulative rewards).
+**🔐 Disclaimer:** _This project is a fictional parody. Lumon Industries is not a real employer._
