@@ -1,24 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 header {
-  border: 2px solid black;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: space-between;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #hero {
-  border: 2px solid black;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: space-around;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 
 #companies {
-  border: 2px solid black;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: space-around;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .companies-box {
-  border: 2px solid black;
+    border: 2px solid black;
 }
+
+/* Impression Section Start */
+.impression-employees {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: aqua;
+    h2 {
+        margin-bottom: 2rem;
+    }
+}
+
+.impression-wrapper {
+    display: flex;
+    align-items: top;
+    padding: 0 2rem;
+    gap: 2rem;
+}
+
+.impression {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    img {
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+    }
+    h3 {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    h4 {
+        margin-bottom: 0.25rem;
+    }
+}
+
+/* Impression Section End */
