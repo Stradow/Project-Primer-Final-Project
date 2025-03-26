@@ -37,7 +37,7 @@ header {
 
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   border: 2px solid black;
   color: #fff;
   background-image: url(https://lumon.industries/branch-501-night.jpg);
@@ -65,11 +65,16 @@ header {
   }
 }
 
-.video-section {
+.video {
   border: 2px solid black;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 5rem;
+
+  .text-video {
+    border: 2px solid black;
+  }
 }
 
 /* Impression Section Start */
