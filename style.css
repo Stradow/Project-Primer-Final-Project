@@ -15,6 +15,7 @@
 main {
   background-color: var(--main-white);
 }
+
 header {
   width: 100%;
   height: 4rem;
@@ -28,6 +29,7 @@ header {
   .header-img {
     height: 2rem;
   }
+
   nav ul {
     display: flex;
     gap: 2rem;
@@ -58,30 +60,41 @@ header {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  margin-bottom: 0.1rem;
+  text-align: center;
 
   .hero-content {
-    background-color: #c0c0c0;
+    background-color: var(--accent-1);
     color: #000;
-    max-width: 400px;
-
+    max-width: 300px;
     padding: 40px;
-    border-radius: 5px;
-    margin-right: 5rem;
+    border-radius: 8px;
+    margin: 2rem;
   }
 
-  .hero-btn {
-    padding: 10px;
-    font-size: 1rem;
-    border-radius: 4px;
+  .hero-content p:first-child {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 3rem;
+  }
+
+  .hero-content h1 {
+    margin-bottom: 1.5rem;
+    font-weight: 500;
   }
 }
 
-.video {
-  border: 2px solid black;
+#video {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 5rem;
+  background-image: url(https://pyxis.nymag.com/v1/imgs/1ca/cb3/fb01abccb0f8d2f0e2e3a03dbb8d75ed08-Severance-102-00347F.2x.rhorizontal.w700.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem 2rem;
+  width: 100%;
+  height: auto;
 
   .text-video {
     border: 2px solid black;
@@ -89,7 +102,7 @@ header {
 }
 
 /* Impression Section Start */
-.impression-employees {
+#impression-employees {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,8 +112,6 @@ header {
     margin-top: 1rem;
     margin-bottom: 3rem;
     text-align: center;
-  }
-  h2 {
   }
 }
 
@@ -142,7 +153,7 @@ header {
 /* Impression Section End */
 
 /* Working for us Section Start */
-.working-for-us {
+#working-for-us {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -185,7 +196,7 @@ header {
 /* Working for us Section End */
 
 /* Sign up Section Start */
-.sign-up {
+#sign-up {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -249,3 +260,22 @@ footer {
   flex-direction: column;
 }
 /* Footer End */
+
+/* Button Scroll */
+.scroll-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 24px;
+  border-radius: 8px;
+  opacity: 0.2;
+  z-index: 100;
+}
+
+.scroll-top:hover {
+  opacity: 1;
+}
