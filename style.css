@@ -12,6 +12,7 @@
   --contrast-1: #20464f;
   --contrast-2: #0e1a26;
 }
+
 main {
   background-color: var(--main-white);
 }
@@ -40,6 +41,7 @@ header {
 
   a {
     text-decoration: none;
+    color: var(--contrast-2);
   }
 
   a:hover {
@@ -51,13 +53,13 @@ header {
 #hero {
   width: 100%;
   height: 70vh;
-  border: 2px solid black;
   color: #fff;
   background-image: url(https://lumon.industries/branch-501-night.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: flex-end;
   margin-bottom: 0.1rem;
@@ -70,17 +72,23 @@ header {
     padding: 40px;
     border-radius: 8px;
     margin: 2rem;
+    align-self: flex-end;
   }
 
   .hero-content p:first-child {
     font-size: 1.5rem;
     font-weight: 800;
-    margin-bottom: 3rem;
+    margin-bottom: 1.8rem;
   }
 
-  .hero-content h1 {
-    margin-bottom: 1.5rem;
-    font-weight: 500;
+  .hero-content h2 {
+    margin-bottom: 1rem;
+    font-weight: 550;
+    font-size: 1.3rem;
+  }
+
+  .hero-title {
+    font-size: 2.9rem;
   }
 }
 
@@ -102,17 +110,17 @@ header {
   .left-paragraph {
     width: 30%;
     background-color: rgba(255, 255, 255, 0.85);
-    border-radius: 10px;
+    border-radius: 15px;
     font-size: 24px;
-    padding: 3rem;
+    padding: 2rem;
     margin-top: 180px;
   }
 
   .right-paragraph {
     width: 30%;
     background-color: rgba(255, 255, 255, 0.85);
-    padding: 3rem;
-    border-radius: 10px;
+    padding: 1rem;
+    border-radius: 15px;
     font-size: 24px;
     font-weight: 700;
     color: var(--contrast-2);
@@ -125,7 +133,20 @@ header {
 
 .video {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  background-color: var(--contrast-2);
+  padding: 20px;
+
+  iframe {
+    border-radius: 40px;
+  }
+
+  h3 {
+    color: var(--main-white);
+    font-size: 2.5rem;
+  }
 }
 
 /* Impression Section Start */
@@ -134,6 +155,7 @@ header {
   flex-direction: column;
   align-items: center;
   padding: 2rem 1rem 3rem 1rem;
+
   p {
     width: 40%;
     margin-top: 1rem;
