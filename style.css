@@ -205,7 +205,7 @@ header {
   p {
     width: 40%;
     margin-top: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     text-align: center;
   }
 }
@@ -237,8 +237,9 @@ header {
     border-radius: 100%;
   }
   h3 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.2rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.15rem;
+    font-size: 1.4rem;
   }
   h4 {
     margin-bottom: 0.25rem;
@@ -257,7 +258,7 @@ header {
   p {
     width: 40%;
     margin-top: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     text-align: center;
   }
 }
