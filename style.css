@@ -446,10 +446,6 @@ footer {
 }
 
 @media (min-width: 1440px) {
-  main {
-    padding: 0 4rem;
-  }
-
   .impression-wrapper,
   .working-wrapper {
     gap: 3rem;
