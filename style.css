@@ -198,7 +198,8 @@ header {
   }
 
   h3 {
-    margin-bottom: 15px;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
   }
 }
 
@@ -442,4 +443,42 @@ footer {
 
 .scroll-top:hover {
   opacity: 1;
+}
+
+@media (min-width: 1440px) {
+  main {
+    padding: 0 4rem;
+  }
+
+  .impression-wrapper,
+  .working-wrapper {
+    gap: 3rem;
+  }
+
+  .what-is-left p {
+    font-size: 1.2rem;
+  }
+
+  .video iframe {
+    width: 1000px;
+    height: 562px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+
+  .hero-content {
+    max-width: 400px;
+  }
+
+  .sign-up-text h2 {
+    font-size: 2rem;
+  }
+
+  .sign-up-wrapper {
+    padding: 3rem;
+  }
 }
