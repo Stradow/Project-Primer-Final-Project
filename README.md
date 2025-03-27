@@ -25,8 +25,8 @@ A sleek and corporate promotional site that mimics Lumon’s propaganda.
 
 ## 🛠️ **Tech Stack**
 
--   **Frontend:** HTML5, CSS3 (Grid/Flexbox), JavaScript (for glitches)
--   **Design:** Figma (Wireframe)
+- **Frontend:** HTML, CSS
+- **Design:** Figma
 
 ---
 
