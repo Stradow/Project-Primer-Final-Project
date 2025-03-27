@@ -14,6 +14,23 @@
 }
 main {
   background-color: var(--main-white);
+
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  p {
+    font-size: 1.1rem;
+    word-spacing: 0.02rem;
+    line-height: 1.35rem;
+  }
+  quote {
+    line-height: 1.25rem;
+    font-size: 1rem;
+    font-weight: 300;
+  }
 }
 
 header {
@@ -43,7 +60,7 @@ header {
   }
 
   a:hover {
-    color: #007bff;
+    color: var(--accent-2);
     text-decoration: underline;
   }
 }
@@ -51,7 +68,6 @@ header {
 #hero {
   width: 100%;
   height: 70vh;
-  border: 2px solid black;
   color: #fff;
   background-image: url(https://lumon.industries/branch-501-night.jpg);
   background-position: center;
@@ -60,7 +76,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin-bottom: 0.1rem;
   text-align: center;
 
   .hero-content {
@@ -84,6 +99,58 @@ header {
   }
 }
 
+/* What is Severance Section Start */
+#What-is {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0;
+  background-color: var(--accent-1);
+}
+
+.what-is-left {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 400px;
+  p {
+    width: 90%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  b {
+    text-transform: uppercase;
+  }
+}
+
+.what-is-big-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: stretch;
+  gap: 1rem;
+  margin: 0 0 auto 0;
+}
+
+.what-is {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  padding: 1rem;
+  width: 350px;
+  h3 {
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+  }
+  h4 {
+    margin-bottom: 0.25rem;
+  }
+}
+
+/* What is Severance Section End */
+
 #about-us {
   background-image: url(https://pyxis.nymag.com/v1/imgs/1ca/cb3/fb01abccb0f8d2f0e2e3a03dbb8d75ed08-Severance-102-00347F.2x.rhorizontal.w700.jpg);
   background-position: center 70%;
@@ -106,6 +173,7 @@ header {
     font-size: 24px;
     padding: 3rem;
     margin-top: 180px;
+    font-weight: 700;
   }
 
   .right-paragraph {
@@ -170,7 +238,7 @@ header {
   }
   h3 {
     margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.2rem;
   }
   h4 {
     margin-bottom: 0.25rem;
