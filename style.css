@@ -126,6 +126,7 @@ header {
     width: 90%;
     margin-top: 1rem;
     margin-bottom: 2rem;
+    line-height: 1.5rem;
   }
   b {
     text-transform: uppercase;
