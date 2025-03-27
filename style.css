@@ -84,21 +84,48 @@ header {
   }
 }
 
-#video {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+#about-us {
   background-image: url(https://pyxis.nymag.com/v1/imgs/1ca/cb3/fb01abccb0f8d2f0e2e3a03dbb8d75ed08-Severance-102-00347F.2x.rhorizontal.w700.jpg);
-  background-position: center;
+  background-position: center 70%;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 4rem 2rem;
-  width: 100%;
-  height: auto;
 
-  .text-video {
-    border: 2px solid black;
+  width: 100%;
+  height: 65vh;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 100px 50px;
+  gap: 20px;
+
+  .left-paragraph {
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 3rem;
+    margin-top: 180px;
   }
+
+  .right-paragraph {
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 3rem;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--contrast-2);
+  }
+
+  h3 {
+    margin-bottom: 15px;
+  }
+}
+
+.video {
+  display: flex;
+  justify-content: center;
 }
 
 /* Impression Section Start */
